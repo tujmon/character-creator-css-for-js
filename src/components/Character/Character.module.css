@@ -1,0 +1,15 @@
+.character {
+  min-height: 500px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  /* Fill the available container height */
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .character {
+    z-index: -1;
+    height: 80%;
+  }
+}
